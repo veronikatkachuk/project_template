@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+black = "==25.1.0"
+matplotlib = "==3.10.1"
+pandas = "==2.2.3"
+pylint = "==3.3.6"
+pytest = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
+python_full_version = "3.12.3"
